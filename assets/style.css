@@ -3895,6 +3895,7 @@ figcaption {
     margin-top: 10px;
   }
 
+
   .container-medium {
     padding-left: 20px;
     padding-right: 20px;
@@ -4117,9 +4118,17 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+
+  .hero-content {
+    -webkit-backdrop-filter: blur(5px)!important;
+    backdrop-filter: blur(5px)!important;
+  }
+
   h1 {
     font-size: 42px;
   }
+
+
 
   figcaption {
     margin-top: 5px;

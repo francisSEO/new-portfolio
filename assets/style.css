@@ -37,6 +37,10 @@ a {
   background-color: #0000;
 }
 
+a:hover{
+  opacity: 0.6;
+}
+
 a:active, a:hover {
   outline: 0;
 }
@@ -4198,7 +4202,7 @@ figcaption {
 
   .navbar {
     min-width: 290px;
-    max-width: 290px;
+    max-width: 85%;
     padding-bottom: 10px;
   }
 

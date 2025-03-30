@@ -240,6 +240,10 @@ body {
   line-height: 20px;
 }
 
+.work-detail-image{
+  min-height: 500px;
+}
+
 img {
   vertical-align: middle;
   max-width: 100%;
@@ -4128,7 +4132,9 @@ figcaption {
     font-size: 42px;
   }
 
-
+  .work-detail-image{
+    min-height: 300px;
+  }
 
   figcaption {
     margin-top: 5px;
@@ -4229,6 +4235,7 @@ figcaption {
     padding: 3px 8px;
     font-size: 1rem;
   }
+
 
   .footer {
     padding-bottom: 110px;

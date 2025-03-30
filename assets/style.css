@@ -3312,7 +3312,6 @@ figcaption {
 
 .more-image {
   border-radius: var(--border-radius--border-radius);
-  cursor: zoom-in;
 }
 
 .work-detail-image {
@@ -4228,7 +4227,7 @@ figcaption {
     margin-left: 3px;
     margin-right: 3px;
     padding: 3px 8px;
-    font-size: 12px;
+    font-size: 1rem;
   }
 
   .footer {
